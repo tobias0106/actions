@@ -1,3 +1,5 @@
+"""This module provides functions for testing purposes."""
+
 # Implement quicksort for me: https://en.wikipedia.org/wiki/Quicksort
 def quicksort(arr):
     """
