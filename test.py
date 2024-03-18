@@ -2,10 +2,6 @@
 
 # Implement quicksort for me: https://en.wikipedia.org/wiki/Quicksort
 def quicksort(arr):
-    """Sorts an array using quicksort algorithm.
-    arr: list of integers
-    returns: list of integers
-    """
     if len(arr) <= 1:
         return arr
     pivot = arr[len(arr) // 2]
